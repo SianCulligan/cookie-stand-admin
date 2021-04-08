@@ -12,7 +12,7 @@ export default function Home() {
 
     const results = document.querySelector('.results pre');
     results.innerText = JSON.stringify(formJSON, null, 2);
-    setInformation(e.target.information.value)
+    setInformation(e.target.information)
   }
 
   const form = document.querySelector('.containerTitle')
@@ -73,7 +73,7 @@ export default function Home() {
 
         </div>
         <h3 className="text-sm text-center text-gray-500">Report Table coming soon...</h3>
-        <p className="text-sm text-center text-gray-500 results">{information}</p>
+    
 
         <div className="mt-6 text-sm text-center text-gray-500 results">
         <h2></h2>
