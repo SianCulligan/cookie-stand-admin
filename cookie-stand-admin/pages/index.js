@@ -65,7 +65,7 @@ export default function Home() {
             <input required placeholder="Enter cookies"type="text" name="avgCookies"/></label>
             </div>
             
-            <div className="m-auto bg-purple-500">
+            <div className="m-auto ">
             <button className="pt-3 pb-3 pl-16 pr-16 m-auto text-sm bg-green-500" type="submit" value="Submit">Create</button>
             </div>
           </div>
@@ -73,7 +73,7 @@ export default function Home() {
 
         </div>
         <h3 className="text-sm text-center text-gray-500">Report Table coming soon...</h3>
-    
+        <p className="text-sm text-center text-gray-500 results">{information}</p>
 
         <div className="mt-6 text-sm text-center text-gray-500 results">
         <h2></h2>
