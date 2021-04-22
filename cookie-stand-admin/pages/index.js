@@ -15,8 +15,8 @@ export default function Home() {
     setInformation(e.target.information)
   }
 
-  const form = document.querySelector('.containerTitle')
-  form.addEventListener('submit', informationHandler)
+  // const form = document.querySelector('.containerTitle')
+  // form.addEventListener('submit', informationHandler)
 
 
 
